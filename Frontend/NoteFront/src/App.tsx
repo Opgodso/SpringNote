@@ -25,7 +25,7 @@ function App() {
   return (
       <div className="App">
           <div className="NoteTitle">
-              <h1>我的筆記</h1>
+              <h1>我的筆記test</h1>
           </div>
           <div className='navibar'>
               <button className='menu-btn'>☰</button>
@@ -36,8 +36,6 @@ function App() {
               ))}
           </div>
       </div>
-
-
   );
 }
 
