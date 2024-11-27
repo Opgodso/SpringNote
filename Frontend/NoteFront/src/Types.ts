@@ -1,8 +1,9 @@
 export interface Note{
-    id:number;
+    id?:number;
+    userid:number;
+    username:string;
     title:string;
     content:string;
-    pinned: boolean;
-    lastModified:string;
-    tags:string[];
+    createdAt?:string;
+    modifiedAt?:string;
 }

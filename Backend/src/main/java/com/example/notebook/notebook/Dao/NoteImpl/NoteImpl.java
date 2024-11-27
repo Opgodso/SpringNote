@@ -33,7 +33,7 @@ public class NoteImpl implements NoteDao {
                 return entityManager.merge(note); //合併
             }
         }catch (Exception e){
-            logger.error("Error occurred while saving note: {}", note, e);
+            logger.error("Error while saving note Dao: {}", note, e);
             throw e;
         }
     }
