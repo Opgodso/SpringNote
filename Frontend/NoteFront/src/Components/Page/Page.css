@@ -1,0 +1,36 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 218vh;
+    overflow: hidden;
+}
+
+
+.editor {
+    flex: 1;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: white;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+
+.ql-editor {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+.preview {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+}
+
+
+

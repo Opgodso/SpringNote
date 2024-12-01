@@ -1,25 +1,43 @@
-import React,{useEffect, useState} from "react";
-import axios from "axios";
-import { Note } from "../../Types";
+import React, { useState } from 'react';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+import ReactMarkdown from 'react-markdown';
+import './Page.css';
 
+const Page: React.FC = () => {
+    const [markdown, setMarkdown] = useState<string>('');
 
+    const handleQuillChange = (content: string) => {
+        setMarkdown(content);
+    };
 
-const EditorNote:React.FC = () =>{
-    const [note, setNote] = useState<Note>({
-        userid : 1,
-        username: "無名氏",
-        title: "無標題",
-        content: ""
-    });
+    const stripHtmlTags = (html: string): string => {
+        return html.replace(/<\/?[^>]+(>|$)/g, '');
+    };
 
-    const [isSaved, setIsSaved] = useState<boolean>(false);
+    return (
+        <div className="container">
+            {/* 编辑器 */}
+            <div className="editor">
+                <ReactQuill
+                    value={markdown}
+                    onChange={handleQuillChange}
+                    placeholder="輸入你的 Markdown"
+                />
+            </div>
 
-    useEffect(()=>{
-        const saveInterval = setInterval(()=>{
-            if(!isSaved){
-                saveNote();
-            }
-        },5000);
-    })
+            <div className="preview">
+                <ReactMarkdown
+                    components={{
+                        p: ({ children }) => <>{children}</>, // 移除 <p> 标签
+                    }}
+                    skipHtml
+                >
+                    {stripHtmlTags(markdown)}
+                </ReactMarkdown>
+            </div>
+        </div>
+    );
+};
 
-}
+export default Page;
