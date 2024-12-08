@@ -19,9 +19,10 @@ public class NoteController {
         this.noteService = noteService;
     }
 
-
-    @PostMapping
+    @CrossOrigin(origins = "http://localhost:5173")
+    @PostMapping("/api/note")
     public Note createNote(@RequestBody Note note){
+        System.out.println("received"+note);
         return noteService.save(note);
     }
 
@@ -45,12 +46,12 @@ public class NoteController {
         return noteService.findByTitleContaining(title);
     }
 
-    @DeleteMapping
+    @DeleteMapping("by-id")
     public void deleteNoteById(@RequestParam Long id, @RequestParam Long userId){
         noteService.deleteById(id , userId);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/by-title")
     public void deleteNoteByTitle(@RequestParam String title){
         noteService.deleteByTitle(title);
     }

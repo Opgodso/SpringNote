@@ -11,13 +11,37 @@ const Page: React.FC = () => {
         setMarkdown(content);
     };
 
+    const saveMarkdownContent2Backend = async () => {
+        try {
+            const response = await fetch('http://localhost:5001/notes/api/note', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    userid: 1,
+                    user_name: 'test',
+                    title: 'test notebook',
+                    content: markdown,
+                }),
+            });
+
+            if (response.ok) {
+                console.log('Success save');
+            } else {
+                console.log('Error save');
+            }
+        } catch (error) {
+            console.log('Error save markdown', error);
+        }
+    };
+
     const stripHtmlTags = (html: string): string => {
         return html.replace(/<\/?[^>]+(>|$)/g, '');
     };
 
     return (
         <div className="container">
-            {/* 编辑器 */}
             <div className="editor">
                 <ReactQuill
                     value={markdown}
@@ -29,13 +53,14 @@ const Page: React.FC = () => {
             <div className="preview">
                 <ReactMarkdown
                     components={{
-                        p: ({ children }) => <>{children}</>, // 移除 <p> 标签
+                        p: ({ children }) => <>{children}</>, // 移除 <p> 標籤
                     }}
                     skipHtml
                 >
                     {stripHtmlTags(markdown)}
                 </ReactMarkdown>
             </div>
+            <button onClick={saveMarkdownContent2Backend}>Save</button>
         </div>
     );
 };

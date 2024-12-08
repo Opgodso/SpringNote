@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b46a361-6807-49c8-b277-baf0f405e56a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spring_notebook.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/notebook/notebook/Model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/notebook/notebook/Model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/src/main/java/com/example/notebook/notebook/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/src/main/java/com/example/notebook/notebook/controller/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/NoteFront/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/NoteFront/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/NoteFront/src/Components/Page/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/NoteFront/src/Components/Page/Page.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2omhxlI7bIX8KM1KX9VdffPKJjQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.NoteDaoImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NoteDaoImplTest.testSave.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.NotebookApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/Spring_notebook/Backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Project\\Spring_notebook\\Frontend\\NoteFront\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\Spring_notebook\Frontend\NoteFront\src\Components\Page" />
+      <recent name="E:\Project\Spring_notebook\Backend" />
+      <recent name="E:\Project\Spring_notebook\notebook" />
+      <recent name="E:\Project\Spring_notebook\notebook\Backend" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.notebook.notebook" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NotebookApplication">
+    <configuration name="NoteDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.notebook.notebook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.notebook.notebook" />
+      <option name="MAIN_CLASS_NAME" value="com.example.notebook.notebook.NoteDaoImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoteDaoImplTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="notebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.notebook.notebook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.notebook.notebook" />
+      <option name="MAIN_CLASS_NAME" value="com.example.notebook.notebook.NoteDaoImplTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotebookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="notebook" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.notebook.notebook.NotebookApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NoteDaoImplTest.testSave" />
+        <item itemvalue="JUnit.NoteDaoImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b46a361-6807-49c8-b277-baf0f405e56a" name="Changes" comment="" />
+      <created>1731480906253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731480906253</updated>
+      <workItem from="1731480907486" duration="3360000" />
+      <workItem from="1731491533117" duration="9519000" />
+      <workItem from="1731597455104" duration="1203000" />
+      <workItem from="1731652986270" duration="47146000" />
+      <workItem from="1732168822950" duration="329000" />
+      <workItem from="1732176428151" duration="15210000" />
+      <workItem from="1732435195864" duration="10477000" />
+      <workItem from="1732544115785" duration="3650000" />
+      <workItem from="1732624279891" duration="373000" />
+      <workItem from="1732708387424" duration="7167000" />
+      <workItem from="1733029960187" duration="11342000" />
+      <workItem from="1733041495046" duration="14054000" />
+      <workItem from="1733110385376" duration="1557000" />
+      <workItem from="1733116862127" duration="3638000" />
+      <workItem from="1733157377765" duration="65000" />
+      <workItem from="1733157456661" duration="946000" />
+      <workItem from="1733158463627" duration="415000" />
+      <workItem from="1733158889701" duration="217000" />
+      <workItem from="1733159118842" duration="35000" />
+      <workItem from="1733159161538" duration="17000" />
+      <workItem from="1733626357682" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

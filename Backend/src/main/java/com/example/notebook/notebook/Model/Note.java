@@ -20,6 +20,8 @@ public class Note {
     private Long userid;
     private String username;
     private String title;
+
+    @Lob
     private String content;
 
 

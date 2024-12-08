@@ -8,7 +8,7 @@ const Home: React.FC = () => {
     const [isSideMenuOpen, setSideMenuOpen] = useState(false);
     const navigate = useNavigate();
     const handleButtonClick = () => {
-        navigate("/page");
+        navigate("/pages");
     }
     return (
         <div className={`sideMenu ${isSideMenuOpen ? '' : 'collapsed'}`}>
@@ -50,7 +50,7 @@ const App: React.FC = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/page" element={<Page />} />
+                <Route path="/pages" element={<Page />} />
             </Routes>
         </Router>
     );
